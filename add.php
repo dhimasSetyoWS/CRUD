@@ -66,7 +66,7 @@ if (isset($_POST["submit"])) {
 
     $result = mysqli_query($mysqli, "INSERT INTO users(name,nim,jurusan) VALUES('$name', '$nim', '$jurusan')");
 
-    echo '<div class="notif">User added succesfully. <a href="index.php">View Users</a></div>';
+    echo '<div class="notif alert alert-success">User added succesfully. <a href="index.php">View Users</a></div>';
 }
 
 ?>
