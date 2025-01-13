@@ -39,6 +39,7 @@ $result = mysqli_query($mysqli, "SELECT * FROM users ORDER BY id DESC");
             echo "<td>" . "<strong>Belum ada data, silahkan tambahkan data</strong>" . "</td>";
             echo "<td>" . "<strong>-</strong>" . "</td>";
             echo "<td>" . "<strong>-</strong>" . "</td>";
+            echo "<td>" . "<strong>-</strong>" . "</td>";
             echo "</tr>";
         }
         ?>
