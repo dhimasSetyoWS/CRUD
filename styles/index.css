@@ -3,7 +3,7 @@ body {
     overflow-x: hidden;
 }
 table {
-    margin-left: 25px;
+    margin: 0 25px;
 }
 a {
     margin : 25px;
